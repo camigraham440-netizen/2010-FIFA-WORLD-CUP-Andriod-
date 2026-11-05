@@ -1,0 +1,7 @@
+STATUS: SOURCE INTEGRATION STARTER ONLY
+No APK has been built.
+No end-to-end Android build has been tested.
+No FIFA generated C++ is included.
+No Xbox 360 game files or game assets are included.
+The manifest is a placeholder requiring validation against the pinned ReXGlue SDK.
+The workflow intentionally fails until Android project integration and generated FIFA code exist.

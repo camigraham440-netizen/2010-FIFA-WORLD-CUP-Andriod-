@@ -1,0 +1,12 @@
+# Manifest schema must be reconciled with the pinned ReXGlue SDK before codegen.
+# This is a project-specific input declaration, not generated code.
+[project]
+name = "worldcup2010"
+
+[game]
+entrypoint = "game/default.xex"
+
+# The FIFA PC port documents this as a separate guest module.
+[[modules]]
+name = "fifadllzf"
+path = "game/fifadllzf.xex"

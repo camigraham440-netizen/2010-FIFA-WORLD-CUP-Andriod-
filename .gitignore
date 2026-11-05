@@ -1,0 +1,22 @@
+# Game data and generated copyrighted code
+/game/
+/generated/default/
+*.xex
+*.iso
+*.xiso
+
+# Build outputs
+/.gradle/
+/out/
+/build/
+/android/.gradle/
+/android/app/build/
+
+# Local SDK/dependency checkouts
+/thirdparty/
+/local.properties
+
+# IDE
+.idea/
+*.iml
+.DS_Store

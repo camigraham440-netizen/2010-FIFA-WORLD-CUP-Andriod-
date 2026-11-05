@@ -1,0 +1,49 @@
+name: Android build (requires FIFA codegen output)
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Check required project inputs
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ ! -f generated/default/sources.cmake ]]; then
+            echo "::error::FIFA generated/default/sources.cmake is missing. Public source repositories do not include game-specific generated code. Run the FIFA ReXGlue code-generation step in a lawful private environment, then provide its output to this build." 
+            exit 1
+          fi
+          if [[ ! -f android/gradlew && ! -f gradlew ]]; then
+            echo "::error::Android Gradle project/wrapper has not yet been integrated into this repository."
+            exit 1
+          fi
+
+      - name: Build debug APK
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -f android/gradlew ]]; then
+            chmod +x android/gradlew
+            ./android/gradlew -p android assembleDebug
+          else
+            chmod +x ./gradlew
+            ./gradlew assembleDebug
+          fi
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: fifa-world-cup-2010-android-debug
+          path: android/app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
+          retention-days: 7
