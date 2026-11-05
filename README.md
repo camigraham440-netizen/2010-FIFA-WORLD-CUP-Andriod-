@@ -1,6 +1,6 @@
 # FIFA World Cup 2010 — Android/ReXGlue integration workspace
 
-**Status: integration scaffold, not a playable port or APK.** This repository is intended to collect the reusable FIFA-specific source and the Android/ReXGlue platform layer. It deliberately contains no Xbox 360 game files, generated FIFA code, game assets, or binaries.
+**Status: integration scaffold, not a playable port or APK yet.** This repository is intended to collect the reusable FIFA-specific source and the Android/ReXGlue platform layer. It deliberately contains no Xbox 360 game files, generated FIFA code, game assets, or binaries.
 
 ## Primary upstream sources
 
