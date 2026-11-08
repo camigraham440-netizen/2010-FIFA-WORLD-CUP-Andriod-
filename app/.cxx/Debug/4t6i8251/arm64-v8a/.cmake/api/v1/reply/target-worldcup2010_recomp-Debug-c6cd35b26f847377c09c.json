@@ -1,0 +1,852 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./cmake_pch.hxx.pch"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_init.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_register.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/module_registry.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.0.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.1.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.2.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.3.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.4.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.5.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.6.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.7.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.8.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.9.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.10.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.11.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.12.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.13.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.14.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.15.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.16.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.17.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.18.cpp.o"
+		},
+		{
+			"path" : "fifa-game/CMakeFiles/worldcup2010_recomp.dir/./generated/default/worldcup2010_recomp.19.cpp.o"
+		}
+	],
+	"backtrace" : 2,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"rexglue_setup_target",
+			"add_dependencies",
+			"target_link_libraries",
+			"add_custom_command",
+			"include",
+			"target_compile_options",
+			"rexglue_apply_target_settings",
+			"rexglue_apply_recomp_settings",
+			"target_include_directories",
+			"target_precompile_headers",
+			"set_source_files_properties"
+		],
+		"files" : 
+		[
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/rexglue.cmake",
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/CMakeLists.txt",
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/cmake/rexglue_helpers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 80,
+				"parent" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 1
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 87,
+				"parent" : 1
+			},
+			{
+				"command" : 5,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 5
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 6
+			},
+			{
+				"command" : 7,
+				"file" : 0,
+				"line" : 88,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 2,
+				"line" : 54,
+				"parent" : 8
+			},
+			{
+				"command" : 8,
+				"file" : 0,
+				"line" : 89,
+				"parent" : 1
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 72,
+				"parent" : 10
+			},
+			{
+				"command" : 6,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 82,
+				"parent" : 1
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 10
+			},
+			{
+				"command" : 11,
+				"file" : 0,
+				"line" : 63,
+				"parent" : 6
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -fno-limit-debug-info  -std=c++23 -fPIC"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-march=armv8-a"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-gline-tables-only"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pthread"
+				},
+				{
+					"fragment" : "-Winvalid-pch -fpch-instantiate-templates -Xclang -emit-pch -Xclang -include -Xclang /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_recomp.dir/cmake_pch.hxx -x c++-header"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "REXGLUE_ENABLE_PERF_COUNTERS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REXGLUE_ENABLE_PROFILING"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REX_HAS_VULKAN=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_FMT_EXTERNAL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_DELAYED_INIT"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_ENABLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_FIBERS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_IMPORTS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_MANUAL_LIFETIME"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_ON_DEMAND"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/simde"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/simde/simde"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spdlog/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/sdl3/include-revision"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/core/../../thirdparty/libucontext/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/core/../../thirdparty/libucontext/arch/aarch64/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-headers/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/tomlplusplus/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/tracy/public"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spirv-tools/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "23"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 14,
+					"header" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/codespace/android-sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -std=c++20 -fno-limit-debug-info  -std=c++23 -fPIC"
+				},
+				{
+					"backtrace" : 9,
+					"fragment" : "-march=armv8-a"
+				},
+				{
+					"backtrace" : 11,
+					"fragment" : "-gline-tables-only"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-O2"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-pthread"
+				},
+				{
+					"backtrace" : 15,
+					"fragment" : "-gline-tables-only"
+				},
+				{
+					"fragment" : "-Winvalid-pch -Xclang -include-pch -Xclang /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_recomp.dir/cmake_pch.hxx.pch -Xclang -include -Xclang /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_recomp.dir/cmake_pch.hxx"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 4,
+					"define" : "REXGLUE_ENABLE_PERF_COUNTERS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REXGLUE_ENABLE_PROFILING"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "REX_HAS_VULKAN=1"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_COMPILED_LIB"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "SPDLOG_FMT_EXTERNAL"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_DELAYED_INIT"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_ENABLE"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_FIBERS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_IMPORTS"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_MANUAL_LIFETIME"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "TRACY_ON_DEMAND"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/src"
+				},
+				{
+					"backtrace" : 13,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/simde"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/simde/simde"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spdlog/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/sdl3/include-revision"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/core/../../thirdparty/libucontext/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/core/../../thirdparty/libucontext/arch/aarch64/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-headers/include"
+				},
+				{
+					"backtrace" : 4,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/tomlplusplus/include"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/tracy/public"
+				},
+				{
+					"backtrace" : 4,
+					"isSystem" : true,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spirv-tools/include"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					4
+				],
+				"standard" : "23"
+			},
+			"precompileHeaders" : 
+			[
+				{
+					"backtrace" : 14,
+					"header" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_pch.h"
+				}
+			],
+			"sourceIndexes" : 
+			[
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/codespace/android-sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 3,
+			"id" : "worldcup2010_codegen::@41d14d15d33f71a111ce"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "TracyClient::@2c150ac07e9238396fdb"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "xxhash::@981a11c206ca9df1f21d"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "fmt::@4930de4adbae6cbaef99"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "spdlog::@614068845244f2154de4"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "SDL3-static::@919731aee87571ff45ed"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rexcore::@5688f9fc6ff1acc09599"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "rexruntime::@034b1b720db9aae5e622"
+		},
+		{
+			"backtrace" : 7,
+			"id" : "rexglue::@707b2a2156ed323beb4d"
+		}
+	],
+	"id" : "worldcup2010_recomp::@41d14d15d33f71a111ce",
+	"name" : "worldcup2010_recomp",
+	"paths" : 
+	{
+		"build" : "fifa-game",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23
+			]
+		},
+		{
+			"name" : "Precompile Header File",
+			"sourceIndexes" : 
+			[
+				24
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				25
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_recomp.dir/cmake_pch.hxx.cxx",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_init.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_register.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/module_registry.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.0.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.1.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.2.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.3.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.4.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.5.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.6.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.7.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.8.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.9.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.10.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.11.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.12.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.13.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.14.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.15.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.16.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.17.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.18.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 1,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/worldcup2010_recomp.19.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_recomp.dir/cmake_pch.hxx",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/codegen.build.stamp.rule",
+			"sourceGroupIndex" : 2
+		}
+	],
+	"type" : "OBJECT_LIBRARY"
+}

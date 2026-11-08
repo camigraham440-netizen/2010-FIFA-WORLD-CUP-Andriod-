@@ -1,0 +1,27 @@
+CMake Warning at /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/cmake/rex_version.cmake:33 (message):
+  rex_compute_version: no v* tag reachable from HEAD.  Falling back to
+  0.10.0.0-dev.unknown.  If this is a CI build, ensure tags are fetched
+  (fetch-depth: 0 + fetch-tags: true).  If this is a fork, push tags with:
+  git push <fork-remote> --tags
+Call Stack (most recent call first):
+  /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/cmake/rex_version.cmake:165 (rex_compute_version)
+  /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/CMakeLists.txt:197 (rex_resolve_version)
+
+
+CMake Deprecation Warning at /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/CMakeLists.txt:39 (cmake_minimum_required):
+  Compatibility with CMake < 3.5 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Warning (dev) at /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/CMakeLists.txt:233 (find_package):
+  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+  the cmake_policy command to set the policy and suppress this warning.
+
+Call Stack (most recent call first):
+  /workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/CMakeLists.txt:239 (find_host_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+

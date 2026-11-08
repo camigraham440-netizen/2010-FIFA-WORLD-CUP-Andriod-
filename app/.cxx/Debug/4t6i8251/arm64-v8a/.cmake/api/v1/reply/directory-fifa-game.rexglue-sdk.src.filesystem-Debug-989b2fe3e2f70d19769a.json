@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "fifa-game/rexglue-sdk/src/filesystem",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/filesystem"
+	}
+}

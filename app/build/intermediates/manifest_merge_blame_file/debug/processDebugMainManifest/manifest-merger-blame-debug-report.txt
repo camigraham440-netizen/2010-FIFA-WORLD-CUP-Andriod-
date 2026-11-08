@@ -1,0 +1,49 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.worldcup2010.android"
+4    android:versionCode="1"
+5    android:versionName="0.1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+9        android:targetSdkVersion="35" />
+10
+11    <uses-feature
+11-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:2:5-5:36
+12        android:name="android.hardware.vulkan.version"
+12-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:3:9-55
+13        android:required="false"
+13-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:5:9-33
+14        android:version="0x00401000" />
+14-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:4:9-37
+15
+16    <application
+16-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:6:5-18:19
+17        android:debuggable="true"
+18        android:extractNativeLibs="false"
+19        android:hasCode="true"
+19-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:9:9-31
+20        android:label="FIFA World Cup 2010"
+20-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:8:9-44
+21        android:theme="@android:style/Theme.Material.NoActionBar" >
+21-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:7:9-66
+22        <activity
+22-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:10:9-17:20
+23            android:name="com.worldcup2010.android.MainActivity"
+23-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:11:13-41
+24            android:exported="true" >
+24-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:12:13-36
+25            <intent-filter>
+25-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:13:13-16:29
+26                <action android:name="android.intent.action.MAIN" />
+26-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:14:17-68
+26-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:14:25-66
+27
+28                <category android:name="android.intent.category.LAUNCHER" />
+28-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:15:17-76
+28-->/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/AndroidManifest.xml:15:27-74
+29            </intent-filter>
+30        </activity>
+31    </application>
+32
+33</manifest>

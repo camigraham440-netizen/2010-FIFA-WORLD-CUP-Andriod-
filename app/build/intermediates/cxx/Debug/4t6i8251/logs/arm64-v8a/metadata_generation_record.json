@@ -1,0 +1,145 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 26 min SDK version: arm64-v8a",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/android_gradle_build.json due to:",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a\u0027",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a\u0027",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake /home/codespace/android-sdk/cmake/3.30.3/bin/cmake \\\n  -H/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/codespace/android-sdk/ndk/27.0.12077973 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/codespace/android-sdk/ndk/27.0.12077973 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/codespace/android-sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/codespace/android-sdk/cmake/3.30.3/bin/ninja \\\n  -DCMAKE_CXX_FLAGS\u003d-std\u003dc++20 \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "/home/codespace/android-sdk/cmake/3.30.3/bin/cmake \\\n  -H/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp \\\n  -DCMAKE_SYSTEM_NAME\u003dAndroid \\\n  -DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON \\\n  -DCMAKE_SYSTEM_VERSION\u003d26 \\\n  -DANDROID_PLATFORM\u003dandroid-26 \\\n  -DANDROID_ABI\u003darm64-v8a \\\n  -DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a \\\n  -DANDROID_NDK\u003d/home/codespace/android-sdk/ndk/27.0.12077973 \\\n  -DCMAKE_ANDROID_NDK\u003d/home/codespace/android-sdk/ndk/27.0.12077973 \\\n  -DCMAKE_TOOLCHAIN_FILE\u003d/home/codespace/android-sdk/ndk/27.0.12077973/build/cmake/android.toolchain.cmake \\\n  -DCMAKE_MAKE_PROGRAM\u003d/home/codespace/android-sdk/cmake/3.30.3/bin/ninja \\\n  -DCMAKE_CXX_FLAGS\u003d-std\u003dc++20 \\\n  -DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a \\\n  -DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a \\\n  -DCMAKE_BUILD_TYPE\u003dDebug \\\n  -B/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a \\\n  -GNinja\n",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Received process result: 0",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/compile_commands.json.bin normally",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt",
+    "tag_": "debug|arm64-v8a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

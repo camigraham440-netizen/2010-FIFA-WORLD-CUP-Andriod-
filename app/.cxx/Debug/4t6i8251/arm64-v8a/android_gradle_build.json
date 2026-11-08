@@ -1,0 +1,284 @@
+{
+  "buildFiles": [
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/audio/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/codegen/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/core/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/filesystem/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/graphics/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/input/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/kernel/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/rexglue/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/system/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/src/ui/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/disasm/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/External/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/OGLCompilersDLL/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/SPIRV/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/glslang/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/glslang/OSDependent/Unix/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/glslang/gtests/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spdlog/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/spirv-headers/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/utfcpp/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-headers/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/xxHash/cmake_unofficial/CMakeLists.txt",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/cpp/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/home/codespace/android-sdk/cmake/3.30.3/bin/ninja",
+      "-C",
+      "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/home/codespace/android-sdk/cmake/3.30.3/bin/ninja",
+    "-C",
+    "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "GenericCodeGen::@be7ee75136bfefe1079f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "GenericCodeGen",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libGenericCodeGend.a"
+    },
+    "MachineIndependent::@be7ee75136bfefe1079f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "MachineIndependent",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libMachineIndependentd.a"
+    },
+    "OGLCompiler::@df5b33fe21c7c4381555": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "OGLCompiler",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libOGLCompilerd.a"
+    },
+    "OSDependent::@94400c202450a8bf4d1a": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "OSDependent",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libOSDependentd.a"
+    },
+    "SDL3-static::@919731aee87571ff45ed": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL3-static",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libSDL3d.a"
+    },
+    "SDL3_test::@919731aee87571ff45ed": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SDL3_test",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libSDL3_testd.a"
+    },
+    "SPIRV::@9593487780434bb2a9d1": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "SPIRV",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libSPIRVd.a"
+    },
+    "TracyClient::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "TracyClient",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so",
+      "runtimeFiles": []
+    },
+    "aes128::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "aes128",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libaes128d.a"
+    },
+    "disasm::@9a44c1891a80d4452a91": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "disasm",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libdisasmd.a"
+    },
+    "embed_templates::@d3f99489d05e78008952": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "embed_templates"
+    },
+    "fmt::@4930de4adbae6cbaef99": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "fmt",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libfmtd.a"
+    },
+    "glslang::@be7ee75136bfefe1079f": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "glslang",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libglslangd.a"
+    },
+    "glslang-build-info::@79703e560d5554dfbc73": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "glslang-build-info"
+    },
+    "imgui::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "imgui"
+    },
+    "libavcodec::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "libavcodec",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/liblibavcodecd.a"
+    },
+    "libavutil::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "libavutil",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/liblibavutild.a"
+    },
+    "mspack::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "mspack",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libmspackd.a"
+    },
+    "o1heap::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "o1heap",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libo1heapd.a"
+    },
+    "rexaudio::@cf4f92fccb3b195b81c3": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexaudio"
+    },
+    "rexcodegen::@d3f99489d05e78008952": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexcodegen",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexcodegend.a"
+    },
+    "rexcore::@5688f9fc6ff1acc09599": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexcore"
+    },
+    "rexfilesystem::@c94de08e5226a1a744d0": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexfilesystem"
+    },
+    "rexglue::@707b2a2156ed323beb4d": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexglue",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/rexglued",
+      "runtimeFiles": [
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexruntimed.so",
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so"
+      ]
+    },
+    "rexgpu-xenos::@52bf43b52b58a16a8d00": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexgpu-xenos",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexgpu-xenosd.so",
+      "runtimeFiles": [
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexruntimed.so",
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so"
+      ]
+    },
+    "rexinput::@ce9911bf7c484729b4e7": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexinput"
+    },
+    "rexruntime::@034b1b720db9aae5e622": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexruntime",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexruntimed.so",
+      "runtimeFiles": [
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so"
+      ]
+    },
+    "rexui::@1c43c7df0d134f05279e": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "rexui"
+    },
+    "spdlog::@614068845244f2154de4": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "spdlog",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libspdlogd.a"
+    },
+    "tiny-aes::@2c150ac07e9238396fdb": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "tiny-aes",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libtiny-aesd.a"
+    },
+    "worldcup2010::@41d14d15d33f71a111ce": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "worldcup2010",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a/libFIFA World Cup 2010.so",
+      "runtimeFiles": [
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexruntimed.so",
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so"
+      ]
+    },
+    "worldcup2010_codegen::@41d14d15d33f71a111ce": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "worldcup2010_codegen"
+    },
+    "worldcup2010_fifadllzf::@41d14d15d33f71a111ce": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "worldcup2010_fifadllzf",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/cxx/Debug/4t6i8251/obj/arm64-v8a/libworldcup2010_fifadllzf.so",
+      "runtimeFiles": [
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/librexruntimed.so",
+        "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libTracyClientd.so"
+      ]
+    },
+    "worldcup2010_recomp::@41d14d15d33f71a111ce": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "worldcup2010_recomp"
+    },
+    "xxhash::@981a11c206ca9df1f21d": {
+      "toolchain": "toolchain",
+      "abi": "arm64-v8a",
+      "artifactName": "xxhash",
+      "output": "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libxxhashd.a"
+    }
+  },
+  "toolchains": {
+    "toolchain": {
+      "cCompilerExecutable": "/home/codespace/android-sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang.lld",
+      "cppCompilerExecutable": "/home/codespace/android-sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++.lld"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "cpp",
+    "cxx",
+    "cc"
+  ]
+}

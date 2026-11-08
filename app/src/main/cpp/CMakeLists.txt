@@ -1,3 +1,18 @@
-cmake_minimum_required(VERSION 3.22.1)
-project(worldcup2010)
-add_library(worldcup2010 SHARED native-lib.cpp)
+cmake_minimum_required(VERSION 3.25)
+project(worldcup2010 LANGUAGES C CXX)
+
+set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+set(REXSDK_DIR "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk" CACHE PATH "ReXGlue SDK")
+set(FIFA_SOURCE_DIR "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template")
+if(NOT EXISTS "${REXSDK_DIR}/CMakeLists.txt")
+    message(FATAL_ERROR "ReXGlue SDK not found: ${REXSDK_DIR}")
+endif()
+
+if(NOT EXISTS "${FIFA_SOURCE_DIR}/generated/rexglue.cmake")
+    message(FATAL_ERROR "Generated FIFA sources not found")
+endif()
+
+
+add_subdirectory("${FIFA_SOURCE_DIR}" fifa-game)

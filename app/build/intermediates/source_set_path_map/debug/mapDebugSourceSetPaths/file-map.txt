@@ -1,0 +1,7 @@
+com.worldcup2010.android.app-pngs-0 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/generated/res/pngs/debug
+com.worldcup2010.android.app-resValues-1 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/generated/res/resValues/debug
+com.worldcup2010.android.app-packageDebugResources-2 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.worldcup2010.android.app-packageDebugResources-3 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.worldcup2010.android.app-debug-4 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/build/intermediates/merged_res/debug/mergeDebugResources
+com.worldcup2010.android.app-debug-5 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/debug/res
+com.worldcup2010.android.app-main-6 /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/src/main/res

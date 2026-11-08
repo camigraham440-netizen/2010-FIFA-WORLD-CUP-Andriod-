@@ -1,0 +1,492 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libSDL3_testd.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"install",
+			"add_compile_options",
+			"target_compile_options",
+			"sdl_target_compile_option_all_languages",
+			"SDL_AddCommonCompilerFlags",
+			"target_compile_definitions",
+			"add_compile_definitions",
+			"include_directories",
+			"target_link_libraries",
+			"target_sources"
+		],
+		"files" : 
+		[
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/CMakeLists.txt",
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/CMakeLists.txt",
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/cmake/sdlcompilers.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 506,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 4215,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 133,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 140,
+				"parent" : 3
+			},
+			{
+				"command" : 5,
+				"file" : 0,
+				"line" : 508,
+				"parent" : 0
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 70,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 78,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 9
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 83,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 11
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 99,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 13
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 110,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 15
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 115,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 17
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 125,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 19
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 130,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 21
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 135,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 23
+			},
+			{
+				"command" : 4,
+				"file" : 2,
+				"line" : 175,
+				"parent" : 6
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 26,
+				"parent" : 25
+			},
+			{
+				"command" : 6,
+				"file" : 0,
+				"line" : 509,
+				"parent" : 0
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 192,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 39,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 36,
+				"parent" : 3
+			},
+			{
+				"command" : 7,
+				"file" : 1,
+				"line" : 177,
+				"parent" : 3
+			},
+			{
+				"command" : 8,
+				"file" : 1,
+				"line" : 17,
+				"parent" : 3
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 4078,
+				"parent" : 0
+			},
+			{
+				"command" : 10,
+				"file" : 0,
+				"line" : 4065,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security  -fno-limit-debug-info  -fPIC"
+				},
+				{
+					"backtrace" : 4,
+					"fragment" : "-mcmodel=small"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-strict-aliasing"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-ffp-model=strict"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-g"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-O0"
+				},
+				{
+					"backtrace" : 5,
+					"fragment" : "-fno-char8_t"
+				},
+				{
+					"backtrace" : 8,
+					"fragment" : "-Wall"
+				},
+				{
+					"backtrace" : 10,
+					"fragment" : "-Wundef"
+				},
+				{
+					"backtrace" : 12,
+					"fragment" : "-Wfloat-conversion"
+				},
+				{
+					"backtrace" : 14,
+					"fragment" : "-Wdocumentation"
+				},
+				{
+					"backtrace" : 16,
+					"fragment" : "-Wdocumentation-unknown-command"
+				},
+				{
+					"backtrace" : 18,
+					"fragment" : "-fcomment-block-commands=threadsafety"
+				},
+				{
+					"backtrace" : 20,
+					"fragment" : "-Wshadow"
+				},
+				{
+					"backtrace" : 22,
+					"fragment" : "-Wno-unused-local-typedefs"
+				},
+				{
+					"backtrace" : 24,
+					"fragment" : "-Wimplicit-fallthrough"
+				},
+				{
+					"backtrace" : 26,
+					"fragment" : "-fcolor-diagnostics"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 27,
+					"define" : "DEBUG"
+				},
+				{
+					"backtrace" : 28,
+					"define" : "REXGLUE_BUILD_CONFIG=\"Debug\""
+				},
+				{
+					"backtrace" : 29,
+					"define" : "REXGLUE_ENABLE_PERF_COUNTERS"
+				},
+				{
+					"backtrace" : 30,
+					"define" : "REXGLUE_ENABLE_PROFILING"
+				},
+				{
+					"backtrace" : 31,
+					"define" : "REX_PLATFORM_LINUX=1"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 32,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/libucontext/include"
+				},
+				{
+					"backtrace" : 32,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/libucontext/arch/aarch64/include"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/sdl3/include-revision"
+				},
+				{
+					"backtrace" : 33,
+					"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/include"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10
+			],
+			"sysroot" : 
+			{
+				"path" : "/home/codespace/android-sdk/ndk/27.0.12077973/toolchains/llvm/prebuilt/linux-x86_64/sysroot"
+			}
+		}
+	],
+	"id" : "SDL3_test::@919731aee87571ff45ed",
+	"install" : 
+	{
+		"destinations" : 
+		[
+			{
+				"backtrace" : 2,
+				"path" : "lib"
+			}
+		],
+		"prefix" : 
+		{
+			"path" : "/usr/local"
+		}
+	},
+	"name" : "SDL3_test",
+	"nameOnDisk" : "libSDL3_testd.a",
+	"paths" : 
+	{
+		"build" : "fifa-game/rexglue-sdk/thirdparty/sdl3",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				8,
+				9,
+				10
+			]
+		},
+		{
+			"name" : "Header Files",
+			"sourceIndexes" : 
+			[
+				7
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_assert.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_common.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_compare.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_crc32.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_font.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_fuzzer.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_harness.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_internal.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_log.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_md5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 34,
+			"compileGroupIndex" : 0,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/sdl3/src/test/SDL_test_memory.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

@@ -1,0 +1,129 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 432,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 447,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 450,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 454,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "fmt_core",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/out/linux-arm64/libfmtd.a"
+			],
+			"targetId" : "fmt::@4930de4adbae6cbaef99",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "fmt_core",
+			"destination" : "include/fmt",
+			"paths" : 
+			[
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/args.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/base.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/chrono.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/color.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/compile.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/core.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/format.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/format-inl.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/os.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/ostream.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/printf.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/ranges.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/std.h",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt/include/fmt/xchar.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "fmt_core",
+			"destination" : "lib/cmake/fmt",
+			"paths" : 
+			[
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/fmt/fmt-config.cmake",
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/fmt/fmt-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "fmt_core",
+			"destination" : "lib/cmake/fmt",
+			"exportName" : "fmt-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "fmt::@4930de4adbae6cbaef99",
+					"index" : 11
+				},
+				{
+					"id" : "fmt-header-only::@4930de4adbae6cbaef99",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"fifa-game/rexglue-sdk/thirdparty/fmt/CMakeFiles/Export/b834597d9b1628ff12ae4314c3a2e4b8/fmt-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "fmt_core",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/fmt/fmt.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "fifa-game/rexglue-sdk/thirdparty/fmt",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/fmt"
+	}
+}

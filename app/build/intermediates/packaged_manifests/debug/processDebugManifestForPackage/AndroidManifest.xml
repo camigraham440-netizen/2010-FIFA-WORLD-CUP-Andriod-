@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.worldcup2010.android"
+    android:versionCode="1"
+    android:versionName="0.1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="26"
+        android:targetSdkVersion="35" />
+
+    <uses-feature
+        android:name="android.hardware.vulkan.version"
+        android:required="false"
+        android:version="0x00401000" />
+
+    <application
+        android:debuggable="true"
+        android:extractNativeLibs="false"
+        android:hasCode="true"
+        android:label="FIFA World Cup 2010"
+        android:theme="@android:style/Theme.Material.NoActionBar" >
+        <activity
+            android:name="com.worldcup2010.android.MainActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

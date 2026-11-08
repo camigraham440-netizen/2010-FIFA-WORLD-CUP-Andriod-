@@ -1,0 +1,9 @@
+/home/codespace/android-sdk/cmake/3.30.3/bin/ninja \
+  -C \
+  /workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a \
+  TracyClient \
+  rexglue \
+  rexgpu-xenos \
+  rexruntime \
+  worldcup2010 \
+  worldcup2010_fifadllzf

@@ -1,0 +1,99 @@
+{
+	"backtrace" : 3,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target",
+			"include",
+			"add_custom_command"
+		],
+		"files" : 
+		[
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/rexglue.cmake",
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"file" : 0,
+				"parent" : 1
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 126,
+				"parent" : 2
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 117,
+				"parent" : 2
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "rexglue::@707b2a2156ed323beb4d"
+		}
+	],
+	"id" : "worldcup2010_codegen::@41d14d15d33f71a111ce",
+	"name" : "worldcup2010_codegen",
+	"paths" : 
+	{
+		"build" : "fifa-game",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 3,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_codegen",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/CMakeFiles/worldcup2010_codegen.rule",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/fifa-pc-port-src/Installer/recomp-template/generated/default/codegen.build.stamp.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

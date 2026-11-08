@@ -1,0 +1,86 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 42,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 44,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 47,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				{
+					"from" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator/include",
+					"to" : "."
+				}
+			],
+			"type" : "directory"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/VulkanMemoryAllocator",
+			"exportName" : "VulkanMemoryAllocatorConfig",
+			"exportTargets" : 
+			[
+				{
+					"id" : "VulkanMemoryAllocator::@dc2466863fc372e80417",
+					"index" : 0
+				}
+			],
+			"paths" : 
+			[
+				"fifa-game/rexglue-sdk/thirdparty/vulkan-memory-allocator/CMakeFiles/Export/8915d94c8ba9e0889cdde66125f3870b/VulkanMemoryAllocatorConfig.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "share/cmake/VulkanMemoryAllocator",
+			"paths" : 
+			[
+				"/workspaces/2010-FIFA-WORLD-CUP-Andriod-/app/.cxx/Debug/4t6i8251/arm64-v8a/fifa-game/rexglue-sdk/thirdparty/vulkan-memory-allocator/VulkanMemoryAllocatorConfigVersion.cmake"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "fifa-game/rexglue-sdk/thirdparty/vulkan-memory-allocator",
+		"source" : "/workspaces/2010-FIFA-WORLD-CUP-Andriod-/.private-upload/rexglue-sdk/thirdparty/vulkan-memory-allocator"
+	}
+}

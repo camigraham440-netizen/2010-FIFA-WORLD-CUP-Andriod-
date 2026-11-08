@@ -1,0 +1,380 @@
+[1mdiff --git a/app/src/main/java/com/worldcup2010/android/MainActivity.java b/app/src/main/java/com/worldcup2010/android/MainActivity.java[m
+[1mindex ea755e6..972a8ab 100644[m
+[1m--- a/app/src/main/java/com/worldcup2010/android/MainActivity.java[m
+[1m+++ b/app/src/main/java/com/worldcup2010/android/MainActivity.java[m
+[36m@@ -20,6 +20,7 @@[m [mpublic class MainActivity extends Activity {[m
+     private static final int PICK_FOLDER = 100;[m
+     private LinearLayout root;[m
+     private TextView folderStatus;[m
+[32m+[m[32mprivate TextView filesStatus;[m
+ [m
+     private final int BG = Color.rgb(7, 15, 27);[m
+     private final int PANEL = Color.rgb(17, 31, 48);[m
+[36m@@ -217,6 +218,8 @@[m [mpublic class MainActivity extends Activity {[m
+         String saved = getSharedPreferences("game_files", MODE_PRIVATE)[m
+             .getString("game_folder", null);[m
+         if (saved != null) folderStatus.setText("A game folder has been selected");[m
+[32m+[m[32mif (filesStatus != null)[m
+[32m+[m[32m    filesStatus.setText("A game folder has been selected");[m
+     }[m
+ [m
+     private void addMenu(String heading, String description, String page) {[m
+[36m@@ -241,13 +244,353 @@[m [mpublic class MainActivity extends Activity {[m
+             LinearLayout.LayoutParams.MATCH_PARENT, dp(76)[m
+         ));[m
+ [m
+[31m-        card.setOnClickListener(v -> Toast.makeText([m
+[31m-            this, heading + " section will be developed next.",[m
+[31m-            Toast.LENGTH_SHORT[m
+[31m-        ).show());[m
+[32m+[m[32m        card.setOnClickListener(v -> {[m
+[32m+[m[32m    if ("FILES".equals(page)) {[m
+[32m+[m[32m        buildFiles();[m
+[32m+[m[32m    } else if ("CONTROLS".equals(page)) {[m
+[32m+[m[32m        buildControls();[m
+[32m+[m[32m    } else if ("SETTINGS".equals(page)) {[m
+[32m+[m[32m        buildSettings();[m
+[32m+[m[32m    } else if ("ONLINE".equals(page)) {[m
+[32m+[m[32m    buildOnline();[m
+[32m+[m[32m} else {[m
+[32m+[m[32m        Toast.makeText(this, heading + " section will be developed next.",[m
+[32m+[m[32m                Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    }[m
+[32m+[m[32m});[m
+[32m+[m[32m    }[m
+[32m+[m
+[32m+[m[41m    [m
+[32m+[m[32mprivate void buildOnline() {[m
+[32m+[m[32m    root.removeAllViews();[m
+[32m+[m
+[32m+[m[32m    TextView back = action("< BACK TO HOME", PANEL, WHITE);[m
+[32m+[m[32m    back.setOnClickListener(v -> buildHome());[m
+[32m+[m[32m    root.addView(back);[m
+[32m+[m[32m    space(root, 20);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("ONLINE MULTIPLAYER", 22, GOLD, true));[m
+[32m+[m[32m    space(root, 10);[m
+[32m+[m[32m    root.addView(label("Play FIFA World Cup 2010 with another player.",[m
+[32m+[m[32m            13, MUTED, false));[m
+[32m+[m[32m    space(root, 20);[m
+[32m+[m
+[32m+[m[32m    String[] options = {"CREATE ROOM", "JOIN ROOM",[m
+[32m+[m[32m            "PRIVATE MATCH", "PLAYER LOBBY"};[m
+[32m+[m[32m    String[] details = {"Host a match", "Join using a room code",[m
+[32m+[m[32m            "Arrange a private match", "Meet other players"};[m
+[32m+[m
+[32m+[m[32m    for (int i = 0; i < options.length; i++) {[m
+[32m+[m[32m        LinearLayout card = column();[m
+[32m+[m[32m        card.setPadding(dp(16), dp(14), dp(16), dp(14));[m
+[32m+[m[32m        card.setBackground(shape(PANEL, 12));[m
+[32m+[m[32m        card.addView(label(options[i], 14, WHITE, true));[m
+[32m+[m[32m        space(card, 5);[m
+[32m+[m[32m        card.addView(label(details[i], 11, MUTED, false));[m
+[32m+[m[32m        root.addView(card, new LinearLayout.LayoutParams([m
+[32m+[m[32m                LinearLayout.LayoutParams.MATCH_PARENT, -2));[m
+[32m+[m[32m        space(root, 10);[m
+[32m+[m[32m        card.setOnClickListener(v -> Toast.makeText(this,[m
+[32m+[m[32m                "Online networking is not connected yet.",[m
+[32m+[m[32m                Toast.LENGTH_SHORT).show());[m
+     }[m
+ [m
+[31m-    private void chooseFolder() {[m
+[32m+[m[32m    space(root, 18);[m
+[32m+[m[32m    root.addView(label("CONNECTION STATUS", 13, WHITE, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m[32m    root.addView(label("NOT CONNECTED", 13, GOLD, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m[32m    root.addView(label([m
+[32m+[m[32m            "Online multiplayer is experimental. Network and game-engine integration are still required.",[m
+[32m+[m[32m            11, MUTED, false));[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mprivate void buildFiles() {[m
+[32m+[m[32m    root.removeAllViews();[m
+[32m+[m
+[32m+[m[32m    TextView back = action("‹  BACK TO HOME", PANEL, WHITE);[m
+[32m+[m[32m    back.setOnClickListener(v -> buildHome());[m
+[32m+[m[32m    root.addView(back);[m
+[32m+[m[32m    space(root, 25);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("GAME FILES", 23, WHITE, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m[32m    root.addView(label("Select and manage your game folder.", 13, MUTED, false));[m
+[32m+[m[32m    space(root, 25);[m
+[32m+[m
+[32m+[m[32m    String saved = getSharedPreferences("game_files", MODE_PRIVATE)[m
+[32m+[m[32m            .getString("game_folder", null);[m
+[32m+[m
+[32m+[m[32m    filesStatus = label([m
+[32m+[m[32m            saved == null ? "No game folder selected" : "A game folder has been selected",[m
+[32m+[m[32m            14, GOLD, true[m
+[32m+[m[32m    );[m
+[32m+[m[32m    root.addView(filesStatus);[m
+[32m+[m[32m    space(root, 20);[m
+[32m+[m
+[32m+[m[32m    TextView choose = action("CHOOSE GAME FOLDER", GOLD, BG);[m
+[32m+[m[32m    choose.setOnClickListener(v -> chooseFolder());[m
+[32m+[m[32m    root.addView(choose);[m
+[32m+[m[32m    space(root, 12);[m
+[32m+[m
+[32m+[m[32m    TextView clear = action("CLEAR SELECTION", PANEL, WHITE);[m
+[32m+[m[32m    clear.setOnClickListener(v -> {[m
+[32m+[m[32m        getSharedPreferences("game_files", MODE_PRIVATE)[m
+[32m+[m[32m                .edit().remove("game_folder").apply();[m
+[32m+[m[32m        filesStatus.setText("No game folder selected");[m
+[32m+[m[32m        if (folderStatus != null) {[m
+[32m+[m[32m            folderStatus.setText("No game folder selected");[m
+[32m+[m[32m        }[m
+[32m+[m[32m        Toast.makeText(this, "Folder selection cleared", Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(clear);[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprivate void buildControls() {[m
+[32m+[m[32m    root.removeAllViews();[m
+[32m+[m
+[32m+[m[32m    TextView back = action("‹  BACK TO HOME", PANEL, WHITE);[m
+[32m+[m[32m    back.setOnClickListener(v -> buildHome());[m
+[32m+[m[32m    root.addView(back);[m
+[32m+[m[32m    space(root, 25);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("TOUCH CONTROLS", 23, WHITE, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m[32m    root.addView(label("Adjust the on-screen controls.", 13, MUTED, false));[m
+[32m+[m[32m    space(root, 25);[m
+[32m+[m
+[32m+[m[32m    android.content.SharedPreferences prefs =[m
+[32m+[m[32m            getSharedPreferences("game_controls", MODE_PRIVATE);[m
+[32m+[m
+[32m+[m[32m    int savedSize = prefs.getInt("button_size", 100);[m
+[32m+[m[32m    int savedOpacity = prefs.getInt("button_opacity", 75);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("BUTTON SIZE", 14, GOLD, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m
+[32m+[m[32m    TextView sizeValue = label(savedSize + "%", 13, WHITE, true);[m
+[32m+[m[32m    root.addView(sizeValue);[m
+[32m+[m
+[32m+[m[32m    android.widget.SeekBar sizeBar = new android.widget.SeekBar(this);[m
+[32m+[m[32m    sizeBar.setMax(100);[m
+[32m+[m[32m    sizeBar.setProgress(savedSize - 50);[m
+[32m+[m[32m    root.addView(sizeBar);[m
+[32m+[m[32m    space(root, 22);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("BUTTON OPACITY", 14, GOLD, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m
+[32m+[m[32m    TextView opacityValue = label(savedOpacity + "%", 13, WHITE, true);[m
+[32m+[m[32m    root.addView(opacityValue);[m
+[32m+[m
+[32m+[m[32m    android.widget.SeekBar opacityBar = new android.widget.SeekBar(this);[m
+[32m+[m[32m    opacityBar.setMax(100);[m
+[32m+[m[32m    opacityBar.setProgress(savedOpacity);[m
+[32m+[m[32m    root.addView(opacityBar);[m
+[32m+[m[32m    space(root, 22);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("CONTROL PREVIEW", 14, GOLD, true));[m
+[32m+[m[32m    space(root, 12);[m
+[32m+[m
+[32m+[m[32m    LinearLayout preview = new LinearLayout(this);[m
+[32m+[m[32m    preview.setGravity(Gravity.CENTER);[m
+[32m+[m[32m    preview.setPadding(dp(12), dp(20), dp(12), dp(20));[m
+[32m+[m[32m    preview.setBackground(shape(PANEL, 12));[m
+[32m+[m
+[32m+[m[32m    TextView left = action("◀", GOLD, BG);[m
+[32m+[m[32m    TextView right = action("▶", GOLD, BG);[m
+[32m+[m[32m    TextView pass = action("PASS", GOLD, BG);[m
+[32m+[m[32m    TextView shoot = action("SHOOT", GOLD, BG);[m
+[32m+[m
+[32m+[m[32m    preview.addView(left);[m
+[32m+[m[32m    preview.addView(right);[m
+[32m+[m[32m    View gap = new View(this);[m
+[32m+[m[32m    preview.addView(gap, new LinearLayout.LayoutParams(0, 1, 1));[m
+[32m+[m[32m    preview.addView(pass);[m
+[32m+[m[32m    space(root, 0);[m
+[32m+[m[32m    preview.addView(shoot);[m
+[32m+[m
+[32m+[m[32m    root.addView(preview);[m
+[32m+[m[32m    space(root, 20);[m
+[32m+[m
+[32m+[m[32m    Runnable updatePreview = () -> {[m
+[32m+[m[32m        int size = 50 + sizeBar.getProgress();[m
+[32m+[m[32m        int opacity = opacityBar.getProgress();[m
+[32m+[m
+[32m+[m[32m        sizeValue.setText(size + "%");[m
+[32m+[m[32m        opacityValue.setText(opacity + "%");[m
+[32m+[m
+[32m+[m[32m        float scale = size / 100f;[m
+[32m+[m[32m        for (TextView button : new TextView[]{left, right, pass, shoot}) {[m
+[32m+[m[32m            button.setScaleX(scale);[m
+[32m+[m[32m            button.setScaleY(scale);[m
+[32m+[m[32m            button.setAlpha(opacity / 100f);[m
+[32m+[m[32m        }[m
+[32m+[m[32m    };[m
+[32m+[m
+[32m+[m[32m    sizeBar.setOnSeekBarChangeListener(new android.widget.SeekBar.OnSeekBarChangeListener() {[m
+[32m+[m[32m        public void onProgressChanged(android.widget.SeekBar bar, int value, boolean user) {[m
+[32m+[m[32m            updatePreview.run();[m
+[32m+[m[32m        }[m
+[32m+[m[32m        public void onStartTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m        public void onStopTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m    });[m
+[32m+[m
+[32m+[m[32m    opacityBar.setOnSeekBarChangeListener(new android.widget.SeekBar.OnSeekBarChangeListener() {[m
+[32m+[m[32m        public void onProgressChanged(android.widget.SeekBar bar, int value, boolean user) {[m
+[32m+[m[32m            updatePreview.run();[m
+[32m+[m[32m        }[m
+[32m+[m[32m        public void onStartTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m        public void onStopTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m    });[m
+[32m+[m
+[32m+[m[32m    TextView save = action("SAVE CONTROLS", GOLD, BG);[m
+[32m+[m[32m    save.setOnClickListener(v -> {[m
+[32m+[m[32m        prefs.edit()[m
+[32m+[m[32m                .putInt("button_size", 50 + sizeBar.getProgress())[m
+[32m+[m[32m                .putInt("button_opacity", opacityBar.getProgress())[m
+[32m+[m[32m                .apply();[m
+[32m+[m[32m        Toast.makeText(this, "Control settings saved", Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(save);[m
+[32m+[m[32m    space(root, 10);[m
+[32m+[m
+[32m+[m[32m    TextView reset = action("RESET DEFAULTS", PANEL, WHITE);[m
+[32m+[m[32m    reset.setOnClickListener(v -> {[m
+[32m+[m[32m        sizeBar.setProgress(50);[m
+[32m+[m[32m        opacityBar.setProgress(75);[m
+[32m+[m[32m        prefs.edit().putInt("button_size", 100)[m
+[32m+[m[32m                .putInt("button_opacity", 75).apply();[m
+[32m+[m[32m        updatePreview.run();[m
+[32m+[m[32m        Toast.makeText(this, "Controls reset", Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(reset);[m
+[32m+[m
+[32m+[m[32m    updatePreview.run();[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprivate android.widget.Spinner settingSpinner(String[] values, int selected) {[m
+[32m+[m[32m    android.widget.Spinner spinner = new android.widget.Spinner(this);[m
+[32m+[m[32m    android.widget.ArrayAdapter<String> adapter =[m
+[32m+[m[32m            new android.widget.ArrayAdapter<>(this,[m
+[32m+[m[32m                    android.R.layout.simple_spinner_item, values);[m
+[32m+[m[32m    adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);[m
+[32m+[m[32m    spinner.setAdapter(adapter);[m
+[32m+[m[32m    spinner.setSelection(Math.max(0, Math.min(selected, values.length - 1)));[m
+[32m+[m[32m    return spinner;[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m[32mprivate void buildSettings() {[m
+[32m+[m[32m    root.removeAllViews();[m
+[32m+[m
+[32m+[m[32m    TextView back = action("‹  BACK TO HOME", PANEL, WHITE);[m
+[32m+[m[32m    back.setOnClickListener(v -> buildHome());[m
+[32m+[m[32m    root.addView(back);[m
+[32m+[m[32m    space(root, 25);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("VIDEO & AUDIO", 23, WHITE, true));[m
+[32m+[m[32m    space(root, 8);[m
+[32m+[m[32m    root.addView(label("Configure your gameplay preferences.", 13, MUTED, false));[m
+[32m+[m[32m    space(root, 24);[m
+[32m+[m
+[32m+[m[32m    android.content.SharedPreferences prefs =[m
+[32m+[m[32m            getSharedPreferences("game_settings", MODE_PRIVATE);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("RENDER RESOLUTION", 14, GOLD, true));[m
+[32m+[m[32m    android.widget.Spinner resolution = settingSpinner([m
+[32m+[m[32m            new String[]{"640 × 360", "960 × 540", "1280 × 720",[m
+[32m+[m[32m                    "1600 × 900", "1920 × 1080"},[m
+[32m+[m[32m            prefs.getInt("resolution", 2));[m
+[32m+[m[32m    root.addView(resolution);[m
+[32m+[m[32m    space(root, 18);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("ASPECT RATIO", 14, GOLD, true));[m
+[32m+[m[32m    android.widget.Spinner aspect = settingSpinner([m
+[32m+[m[32m            new String[]{"16:9", "Fit Screen", "Stretch"},[m
+[32m+[m[32m            prefs.getInt("aspect", 0));[m
+[32m+[m[32m    root.addView(aspect);[m
+[32m+[m[32m    space(root, 18);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("GRAPHICS QUALITY", 14, GOLD, true));[m
+[32m+[m[32m    android.widget.Spinner graphics = settingSpinner([m
+[32m+[m[32m            new String[]{"Low", "Medium", "High"},[m
+[32m+[m[32m            prefs.getInt("graphics", 1));[m
+[32m+[m[32m    root.addView(graphics);[m
+[32m+[m[32m    space(root, 18);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("FRAME RATE TARGET", 14, GOLD, true));[m
+[32m+[m[32m    android.widget.Spinner fps = settingSpinner([m
+[32m+[m[32m            new String[]{"30 FPS", "60 FPS"},[m
+[32m+[m[32m            prefs.getInt("fps", 1));[m
+[32m+[m[32m    root.addView(fps);[m
+[32m+[m[32m    space(root, 22);[m
+[32m+[m
+[32m+[m[32m    root.addView(label("AUDIO VOLUME", 14, GOLD, true));[m
+[32m+[m[32m    TextView volumeValue = label([m
+[32m+[m[32m            prefs.getInt("volume", 80) + "%", 13, WHITE, true);[m
+[32m+[m[32m    root.addView(volumeValue);[m
+[32m+[m
+[32m+[m[32m    android.widget.SeekBar volume = new android.widget.SeekBar(this);[m
+[32m+[m[32m    volume.setMax(100);[m
+[32m+[m[32m    volume.setProgress(prefs.getInt("volume", 80));[m
+[32m+[m[32m    volume.setOnSeekBarChangeListener([m
+[32m+[m[32m            new android.widget.SeekBar.OnSeekBarChangeListener() {[m
+[32m+[m[32m        public void onProgressChanged(android.widget.SeekBar bar, int value, boolean user) {[m
+[32m+[m[32m            volumeValue.setText(value + "%");[m
+[32m+[m[32m        }[m
+[32m+[m[32m        public void onStartTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m        public void onStopTrackingTouch(android.widget.SeekBar bar) {}[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(volume);[m
+[32m+[m[32m    space(root, 24);[m
+[32m+[m
+[32m+[m[32m    TextView save = action("SAVE SETTINGS", GOLD, BG);[m
+[32m+[m[32m    save.setOnClickListener(v -> {[m
+[32m+[m[32m        prefs.edit()[m
+[32m+[m[32m                .putInt("resolution", resolution.getSelectedItemPosition())[m
+[32m+[m[32m                .putInt("aspect", aspect.getSelectedItemPosition())[m
+[32m+[m[32m                .putInt("graphics", graphics.getSelectedItemPosition())[m
+[32m+[m[32m                .putInt("fps", fps.getSelectedItemPosition())[m
+[32m+[m[32m                .putInt("volume", volume.getProgress())[m
+[32m+[m[32m                .apply();[m
+[32m+[m[32m        Toast.makeText(this, "Video and audio settings saved",[m
+[32m+[m[32m                Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(save);[m
+[32m+[m[32m    space(root, 10);[m
+[32m+[m
+[32m+[m[32m    TextView reset = action("RESET DEFAULTS", PANEL, WHITE);[m
+[32m+[m[32m    reset.setOnClickListener(v -> {[m
+[32m+[m[32m        resolution.setSelection(2);[m
+[32m+[m[32m        aspect.setSelection(0);[m
+[32m+[m[32m        graphics.setSelection(1);[m
+[32m+[m[32m        fps.setSelection(1);[m
+[32m+[m[32m        volume.setProgress(80);[m
+[32m+[m
+[32m+[m[32m        prefs.edit()[m
+[32m+[m[32m                .putInt("resolution", 2)[m
+[32m+[m[32m                .putInt("aspect", 0)[m
+[32m+[m[32m                .putInt("graphics", 1)[m
+[32m+[m[32m                .putInt("fps", 1)[m
+[32m+[m[32m                .putInt("volume", 80)[m
+[32m+[m[32m                .apply();[m
+[32m+[m
+[32m+[m[32m        Toast.makeText(this, "Settings restored to defaults",[m
+[32m+[m[32m                Toast.LENGTH_SHORT).show();[m
+[32m+[m[32m    });[m
+[32m+[m[32m    root.addView(reset);[m
+[32m+[m
+[32m+[m[32m    space(root, 18);[m
+[32m+[m[32m    root.addView(label([m
+[32m+[m[32m            "Note: These preferences will affect gameplay after native rendering and audio integration.",[m
+[32m+[m[32m            11, MUTED, false));[m
+[32m+[m[32m}[m
+[32m+[m
+[32m+[m
+[32m+[m[32mprivate void chooseFolder() {[m
+         Intent intent = new Intent(Intent.ACTION_OPEN_DOCUMENT_TREE);[m
+         startActivityForResult(intent, PICK_FOLDER);[m
+     }[m
