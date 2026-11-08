@@ -11,6 +11,16 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          repository: rexglue/rexglue-sdk
+          ref: c94f5ebdcb3c9d1a460ca48e04f9758448f8d518
+          path: .private-upload/rexglue-sdk
+
+      - uses: actions/checkout@v4
+        with:
+          repository: RamiChaaben8/Fifa_World_Cup_2010_PC_Port
+          ref: 7ca2bea8675ccc4dda4b911938a0110a32a5ac27
+          path: .private-upload/fifa-pc-port-src
 
       - uses: actions/setup-java@v5
         with:
