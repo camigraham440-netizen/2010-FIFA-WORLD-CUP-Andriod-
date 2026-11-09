@@ -23,6 +23,34 @@ jobs:
           ref: 7ca2bea8675ccc4dda4b911938a0110a32a5ac27
           path: .private-upload/fifa-pc-port-src
 
+      - name: Generate FIFA native sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          GAME_DATA="$GITHUB_WORKSPACE/.private-upload/game-extracted"
+          TEMPLATE="$GITHUB_WORKSPACE/.private-upload/fifa-pc-port-src/Installer/recomp-template"
+          SDK="$GITHUB_WORKSPACE/.private-upload/rexglue-sdk"
+          test -f "$GAME_DATA/default.xex"
+          test -f "$GAME_DATA/fifadllzf.xex"
+          cmake -S "$SDK" -B /tmp/rexglue-host -DCMAKE_BUILD_TYPE=Release -DREXGLUE_USE_VULKAN=OFF -DREXGLUE_USE_D3D12=OFF
+          cmake --build /tmp/rexglue-host --target rexglue --parallel 2
+          cat > "$TEMPLATE/worldcup2010_manifest.toml" <<EOF
+          [project]
+          name = "worldcup2010"
+          sdk_version = "0.10.0"
+          game_root = "$GAME_DATA"
+          [entrypoint]
+          file_path = "$GAME_DATA/default.xex"
+          out_directory_path = "generated/default"
+          includes = ["config/default_overrides.toml"]
+          [[modules]]
+          guest_path = "game:\\fifadllzf.xex"
+          file_path = "$GAME_DATA/fifadllzf.xex"
+          out_directory_path = "generated/fifadllzf_xex"
+          includes = ["config/fifadllzf_overrides.toml"]
+          EOF
+          "$SDK/out/linux-amd64/rexglue" codegen "$TEMPLATE/worldcup2010_manifest.toml"
+
       - uses: actions/setup-java@v5
         with:
           distribution: temurin
